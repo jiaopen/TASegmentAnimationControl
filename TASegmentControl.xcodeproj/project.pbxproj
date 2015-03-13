@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFF813391AB2E22800672596 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF813381AB2E22800672596 /* main.m */; };
+		BFF8133C1AB2E22800672596 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8133B1AB2E22800672596 /* AppDelegate.m */; };
+		BFF8133E1AB2E22800672596 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF8133D1AB2E22800672596 /* Images.xcassets */; };
+		BFF813411AB2E22800672596 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFF8133F1AB2E22800672596 /* LaunchScreen.xib */; };
+		BFF8134D1AB2E22800672596 /* TASegmentControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8134C1AB2E22800672596 /* TASegmentControlTests.m */; };
+		BFF813591AB2E2D500672596 /* TASegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF813581AB2E2D500672596 /* TASegmentControl.m */; };
+		BFF8135B1AB2E3FD00672596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF8135A1AB2E3FD00672596 /* Main.storyboard */; };
+		BFF8135F1AB2E65D00672596 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8135E1AB2E65D00672596 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFF813471AB2E22800672596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF8132B1AB2E22800672596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF813321AB2E22800672596;
+			remoteInfo = TASegmentControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFF813331AB2E22800672596 /* TASegmentControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TASegmentControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF813371AB2E22800672596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF813381AB2E22800672596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFF8133A1AB2E22800672596 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFF8133B1AB2E22800672596 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFF8133D1AB2E22800672596 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFF813401AB2E22800672596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BFF813461AB2E22800672596 /* TASegmentControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TASegmentControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF8134B1AB2E22800672596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF8134C1AB2E22800672596 /* TASegmentControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TASegmentControlTests.m; sourceTree = "<group>"; };
+		BFF813571AB2E2D500672596 /* TASegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TASegmentControl.h; sourceTree = "<group>"; };
+		BFF813581AB2E2D500672596 /* TASegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TASegmentControl.m; sourceTree = "<group>"; };
+		BFF8135A1AB2E3FD00672596 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BFF8135D1AB2E65D00672596 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		BFF8135E1AB2E65D00672596 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF813301AB2E22800672596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF813431AB2E22800672596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFF8132A1AB2E22800672596 = {
+			isa = PBXGroup;
+			children = (
+				BFF813351AB2E22800672596 /* TASegmentControl */,
+				BFF813491AB2E22800672596 /* TASegmentControlTests */,
+				BFF813341AB2E22800672596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF813341AB2E22800672596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF813331AB2E22800672596 /* TASegmentControl.app */,
+				BFF813461AB2E22800672596 /* TASegmentControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF813351AB2E22800672596 /* TASegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				BFF813561AB2E2D500672596 /* TASegmentControl */,
+				BFF8133A1AB2E22800672596 /* AppDelegate.h */,
+				BFF8133B1AB2E22800672596 /* AppDelegate.m */,
+				BFF8133D1AB2E22800672596 /* Images.xcassets */,
+				BFF8133F1AB2E22800672596 /* LaunchScreen.xib */,
+				BFF8135A1AB2E3FD00672596 /* Main.storyboard */,
+				BFF813361AB2E22800672596 /* Supporting Files */,
+				BFF8135D1AB2E65D00672596 /* TestViewController.h */,
+				BFF8135E1AB2E65D00672596 /* TestViewController.m */,
+			);
+			path = TASegmentControl;
+			sourceTree = "<group>";
+		};
+		BFF813361AB2E22800672596 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFF813371AB2E22800672596 /* Info.plist */,
+				BFF813381AB2E22800672596 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFF813491AB2E22800672596 /* TASegmentControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8134C1AB2E22800672596 /* TASegmentControlTests.m */,
+				BFF8134A1AB2E22800672596 /* Supporting Files */,
+			);
+			path = TASegmentControlTests;
+			sourceTree = "<group>";
+		};
+		BFF8134A1AB2E22800672596 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8134B1AB2E22800672596 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFF813561AB2E2D500672596 /* TASegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				BFF813571AB2E2D500672596 /* TASegmentControl.h */,
+				BFF813581AB2E2D500672596 /* TASegmentControl.m */,
+			);
+			path = TASegmentControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF813321AB2E22800672596 /* TASegmentControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF813501AB2E22800672596 /* Build configuration list for PBXNativeTarget "TASegmentControl" */;
+			buildPhases = (
+				BFF8132F1AB2E22800672596 /* Sources */,
+				BFF813301AB2E22800672596 /* Frameworks */,
+				BFF813311AB2E22800672596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TASegmentControl;
+			productName = TASegmentControl;
+			productReference = BFF813331AB2E22800672596 /* TASegmentControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFF813451AB2E22800672596 /* TASegmentControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF813531AB2E22800672596 /* Build configuration list for PBXNativeTarget "TASegmentControlTests" */;
+			buildPhases = (
+				BFF813421AB2E22800672596 /* Sources */,
+				BFF813431AB2E22800672596 /* Frameworks */,
+				BFF813441AB2E22800672596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF813481AB2E22800672596 /* PBXTargetDependency */,
+			);
+			name = TASegmentControlTests;
+			productName = TASegmentControlTests;
+			productReference = BFF813461AB2E22800672596 /* TASegmentControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF8132B1AB2E22800672596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					BFF813321AB2E22800672596 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BFF813451AB2E22800672596 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BFF813321AB2E22800672596;
+					};
+				};
+			};
+			buildConfigurationList = BFF8132E1AB2E22800672596 /* Build configuration list for PBXProject "TASegmentControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF8132A1AB2E22800672596;
+			productRefGroup = BFF813341AB2E22800672596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF813321AB2E22800672596 /* TASegmentControl */,
+				BFF813451AB2E22800672596 /* TASegmentControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF813311AB2E22800672596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF8135B1AB2E3FD00672596 /* Main.storyboard in Resources */,
+				BFF813411AB2E22800672596 /* LaunchScreen.xib in Resources */,
+				BFF8133E1AB2E22800672596 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF813441AB2E22800672596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF8132F1AB2E22800672596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF813591AB2E2D500672596 /* TASegmentControl.m in Sources */,
+				BFF8133C1AB2E22800672596 /* AppDelegate.m in Sources */,
+				BFF8135F1AB2E65D00672596 /* TestViewController.m in Sources */,
+				BFF813391AB2E22800672596 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF813421AB2E22800672596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF8134D1AB2E22800672596 /* TASegmentControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFF813481AB2E22800672596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF813321AB2E22800672596 /* TASegmentControl */;
+			targetProxy = BFF813471AB2E22800672596 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFF8133F1AB2E22800672596 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF813401AB2E22800672596 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFF8134E1AB2E22800672596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFF8134F1AB2E22800672596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF813511AB2E22800672596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TASegmentControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFF813521AB2E22800672596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TASegmentControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFF813541AB2E22800672596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TASegmentControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TASegmentControl.app/TASegmentControl";
+			};
+			name = Debug;
+		};
+		BFF813551AB2E22800672596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TASegmentControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TASegmentControl.app/TASegmentControl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF8132E1AB2E22800672596 /* Build configuration list for PBXProject "TASegmentControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF8134E1AB2E22800672596 /* Debug */,
+				BFF8134F1AB2E22800672596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF813501AB2E22800672596 /* Build configuration list for PBXNativeTarget "TASegmentControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF813511AB2E22800672596 /* Debug */,
+				BFF813521AB2E22800672596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFF813531AB2E22800672596 /* Build configuration list for PBXNativeTarget "TASegmentControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF813541AB2E22800672596 /* Debug */,
+				BFF813551AB2E22800672596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFF8132B1AB2E22800672596 /* Project object */;
+}
