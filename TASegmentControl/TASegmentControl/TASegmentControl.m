@@ -179,7 +179,10 @@
     if (index != NSNotFound)
     {
         self.selectedSegmentIndex = index;
-        [self sendActionsForControlEvents:UIControlEventValueChanged];
+        //先刷新segmentcontrol的显示，延迟0.1s执行操作，保证ui效果流畅
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [self sendActionsForControlEvents:UIControlEventValueChanged];
+        });
     }
 }
 
